@@ -20,7 +20,7 @@ const Hero = () => {
          <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'> 
             <motion.h1  
-            variants={container(0)}``
+            variants={container(0)}
             initial="hidden"
             animate="visible"
             className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>Raj Singh</motion.h1>
@@ -59,6 +59,6 @@ const Hero = () => {
      </div>
     </div>
   )
-}
 
+}
 export default Hero
